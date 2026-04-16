@@ -82,3 +82,11 @@ footer {
   transform: translateY(-5px);
   box-shadow: 0 5px 15px rgba(0, 255, 136, 0.3);
 }
+
+.contact iframe {
+  display: block;
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  border: none;
+}
