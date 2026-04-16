@@ -54,3 +54,31 @@ footer {
   background: black;
   border-top: 2px solid #00ff88;
 }
+
+.contact {
+  text-align: center;
+  padding: 60px 20px;
+  background: #0b0b0b;
+  border-top: 2px solid #00ff88;
+}
+
+.contact h2 {
+  color: #00ff88;
+  margin-bottom: 20px;
+}
+
+.contact iframe {
+  max-width: 800px;
+  width: 100%;
+  border-radius: 10px;
+  border: 1px solid #00ff88;
+}
+
+.card {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(0, 255, 136, 0.3);
+}

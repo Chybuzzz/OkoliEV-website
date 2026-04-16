@@ -1,3 +1,5 @@
 function learnMore() {
-  alert("Welcome to the future of electric mobility 🚗⚡");
+  document.getElementById("register").scrollIntoView({
+    behavior: "smooth"
+  });
 }
