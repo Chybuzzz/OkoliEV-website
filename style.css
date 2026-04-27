@@ -36,7 +36,7 @@ button:hover {
 
 .services {
   text-align: center;
-  padding: 40px;
+  padding: 60px 20px;
 }
 
 .card {
@@ -45,7 +45,7 @@ button:hover {
   margin: 15px;
   padding: 20px;
   display: inline-block;
-  width: 200px;
+  width: 220px;
 }
 
 footer {
@@ -301,12 +301,12 @@ button:hover, .btn-secondary:hover {
 }
 
 .hero h2 {
-  font-size: 3rem;
+  font-size: 2.4rem;
   letter-spacing: 1px;
 }
 
 .hero p {
-  font-size: 1.2rem;
+  font-size: 1.05rem;
   opacity: 0.9;
 }
 
@@ -349,4 +349,133 @@ button:hover, .btn-secondary:hover {
   color: #00ff88;
   display: flex;
   align-items: center;   /* aligns text with logos */
+}
+
+.about {
+  padding: 60px 20px;
+  text-align: center;
+  background: #0d0d0d;
+}
+
+.about-content {
+  max-width: 850px;
+  margin: auto;
+}
+
+.about h2 {
+  color: #00ff88;
+  margin-bottom: 30px;
+  font-size: 1.45rem;
+}
+
+.about p {
+  line-height: 1.8;
+  margin-bottom: 20px;
+  font-size: 1.05rem;
+  opacity: 0.92;
+}
+
+.about h3{
+font-size:1.6rem;
+color:#00ff88;
+margin-bottom:30px;
+}
+
+.mission{
+font-weight:bold;
+font-size:1.15rem;
+margin-top:30px;
+}
+
+.values{
+padding:80px 20px;
+text-align:center;
+background:#080808;
+}
+
+.values h2{
+color:#00ff88;
+margin-bottom:40px;
+font-size:2.2rem;
+}
+
+.values-grid{
+display:flex;
+justify-content:center;
+flex-wrap:wrap;
+gap:30px;
+}
+
+.values .card{
+max-width:300px;
+padding:30px 25px;
+}
+
+.timeline{
+padding:80px 20px;
+text-align:center;
+}
+
+.timeline-item{
+margin:30px auto;
+max-width:600px;
+border-left:2px solid #00ff88;
+padding-left:20px;
+text-align:left;
+}
+
+.timeline{
+padding:80px 20px;
+text-align:center;
+}
+
+.accordion{
+background:#111;
+color:#00ff88;
+cursor:pointer;
+padding:14px 18px;
+width:80%;
+max-width:800px;
+border:1px solid #00ff88;
+margin:12px auto;
+text-align:left;
+font-weight:bold;
+font-size:0.88rem;
+display:block;
+border-radius:8px;
+}
+
+font-size:0.88rem;
+padding:14px 18px;
+
+.accordion:hover{
+transform:translateY(-2px);
+}
+
+.panel {
+  max-height: 0;
+  overflow: hidden;
+  opacity: 0;
+  transition: all 0.5s ease;
+  background: #0a0a0a;
+  width: 85%;
+  max-width: 850px;
+  margin: 0 auto 20px;
+  padding: 0 30px;
+  border-left: 4px solid #00ff88;
+  text-align: left;
+  line-height: 1.8;
+  border-radius: 0 0 10px 10px;
+}
+
+.panel.open {
+  padding: 30px;
+  opacity: 1;
+}
+
+.year{
+color:#00ff88;
+font-weight:bold;
+display:block;
+margin-bottom:5px;
 }
